@@ -1,0 +1,9 @@
+# This is describing the content of the .dotfiles folder.
+# The .dotfiles folder contains common configuration files.
+# Those configuration files are usually stored in the home or subfolders.
+# The GNU stow tool is used to create symbolic links to the files in the .dotfiles folder.
+# The .dotfiles folder can be shared between different systems via git.
+# The folder structure in the .dotfiles folder needs to replicate the folder structure from the individual home directory
+# Ideally the .dotfiles folder location is also directly in the home folder
+# The stow -D . command removes all existing symlinks (probably never needed)
+
